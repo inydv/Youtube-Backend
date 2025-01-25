@@ -1,0 +1,37 @@
+{
+  "name": "catalogservice",
+  "version": "1.0.0",
+  "description": "Learning kafka and elastic search.",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inydv/Kafka-Elastic-Search.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "backend",
+    "kafka",
+    "elastic-search",
+    "microservice"
+  ],
+  "author": "Lokesh Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inydv/Kafka-Elastic-Search/issues"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
