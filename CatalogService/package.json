@@ -4,8 +4,9 @@
   "description": "Learning kafka and elastic search.",
   "main": "index.js",
   "scripts": {
-    "start": "",
-    "dev": ""
+    "start": "node dist/server.ts",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.10",
     "nodemon": "^3.1.9",
     "prettier": "^3.4.2",
